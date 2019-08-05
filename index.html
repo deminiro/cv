@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://fonts.googleapis.com/css?family=Exo&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+<body>
+  <header class="header"><nav class="header--navigation">
+    <ul class="navigation--list">
+      <li class="navigation-list--item"><a href="#portfolio"><button>Portfolio</button></a></li>
+      <li class="navigation-list--item"><a href="#about"><button>About me</button></a></li>
+      <li class="navigation-list--item"><a href="#contacts"><button>Contacts</button></a></li>
+    </ul>
+  </nav>
+  </header>
+  <main class="main">
+    <div class="main--portfolio" id="portfolio">
+      <h2 class="main-portfolio--headline">Portfolio</h2>
+      <ul class="main-portfolio--list">
+        <li class="portfolio-list--item">
+          <a href="https://poets-954f2.firebaseapp.com/en/" target="_tablet" class="portfolio-list--project">
+            <button class="portfolio--button">
+              <p class="portfolio--tooltip">
+                It was team project(team had 5 members).In this project, I use React, GatsbyJs, CSS, Material-ui
+              </p>
+              <img class="portfolio--img" src="./assets/culture.png" alt="">
+            </button>
+          </a>
+        </li>
+        <li class="portfolio-list--item">
+          <a href="https://deminiro.github.io/clone-piskel/" target="_tablet" class="portfolio-list--project">
+            <button class="portfolio--button">
+              <p class="portfolio--tooltip">In this project, I use HTML, CSS, JS</p>
+              <img class="portfolio--img" src="./assets/piskel.png" alt="">
+            </button>
+          </a>
+        </li>
+        <li class="portfolio-list--item">
+          <a href="https://deminiro.github.io/youtube-hosting/" target="_tablet" class="portfolio-list--project">
+            <button class="portfolio--button">
+                <p class="portfolio--tooltip">In this project, I use HTML, JS</p>
+              <img class="portfolio--img" src="./assets/youtube.png" alt="">
+            </button>
+          </a>
+        </li>
+        <li class="portfolio-list--item">
+          <a href="https://deminiro.github.io/firstSeriousLandingPage/" target="_tablet" class="portfolio-list--project">
+            <button class="portfolio--button">
+                <p class="portfolio--tooltip">In this project, I use HTML, CSS</p>
+              <img class="portfolio--img" src="./assets/neutron.png" alt="">
+            </button>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="main--about-me" id="about">
+      <h2 class="main-about-me--headline">About me</h2>
+      <div class="main-about-me--container">
+        <img src="./assets/myPhoto.jpg" alt="тут должно было быть моё фото" class="about-me--img">
+        <div class="about-me--container-with-info">
+          <ul class="about-me--list">
+            <li class="about-me-list--item">
+              <h4 class="about-me-info--headline">Name Surname:&nbsp;</h4>
+              <p class="about-me-info--text">Denis Mironov.</p>
+            </li>
+            <li class="about-me-list--item">
+              <h4 class="about-me-info--headline">Age:&nbsp;</h4>
+              <p class="about-me-info--text">18.</p>
+            </li>
+            <li class="about-me-list--item">
+              <h4 class="about-me-info--headline">English:&nbsp;</h4>
+              <p class="about-me-info--text">B1.</p>
+            </li>
+            <li class="about-me-list--item">
+                <h4 class="about-me-info--headline">Confidient know:&nbsp;</h4>
+                <p class="about-me-info--text">HTML, CSS/SCSS, JS.</p>
+            </li>
+            <li class="about-me-list--item">
+                <h4 class="about-me-info--headline">Frameworks and libraries:&nbsp;</h4>
+                <p class="about-me-info--text">React, GatsbyJS, Material-ui.</p>
+            </li>
+            <li class="about-me-list--item">
+                <h4 class="about-me-info--headline">Work with:&nbsp;</h4>
+                <p class="about-me-info--text">Git, Webpack, VS.</p>
+            </li>
+          </ul>
+          <p class="about-me--main-text">
+            Frontend/JavaScript developer.<br>
+            I started programming 6 mouths ago.<br>
+            Now studying on course <a href="https://rs.school/" class="about-me-text--a">
+              The Rolling Scopes</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="footer--container" id="contacts">
+      <h2 class="footer--headline">Contacts</h2>
+      <ul class="footer--list">
+        <li class="footer-list--item">+375 (29) 347-91-81&nbsp;&nbsp;<i class="fas fa-phone"></i></li>
+        <li class="footer-list--item">demmuncho@gmail.com&nbsp;&nbsp;<i class="far fa-envelope"></i></li>
+        <li class="footer-list--item">@deminiro&nbsp;&nbsp;<i class="fab fa-telegram-plane"></i></li>
+        <li class="footer-list--item contacts--social-webs">
+          <a class="contacts-links" href="https://vk.com/denismironoff"><i class="fab fa-vk"></i></a>
+          <a class="contacts-links" href="https://github.com/deminiro"><i class="fab fa-github"></i></a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+  <script src="index.js"></script>
+</body>
+</html>
