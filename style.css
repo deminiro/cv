@@ -101,7 +101,7 @@ button {
   box-shadow: 0 0 20px rgba(0, 0, 0, .5)
 }
 
-.portfolio--button:hover>p {
+.portfolio--button:hover>div {
   display: block;
 }
 
@@ -116,6 +116,10 @@ button {
   display: none;
   z-index: 1;
   color: #fff;
+}
+
+.tooltip-text {
+  margin: 0;
 }
 
 .portfolio--img:hover {
@@ -212,6 +216,10 @@ button {
   text-align: right
 }
 
+.fa-github, .fa-telegram-plane {
+  font-size: 150%;
+}
+
 @media only screen and (max-width: 1045px) {
   .main--portfolio {
     padding-bottom: 40px;
@@ -244,7 +252,7 @@ button {
     height: 10%;
   }
 
-  .portfolio--button:hover>p {
+  .portfolio--button:hover>div {
     display: none;
   }
 
