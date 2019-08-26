@@ -188,6 +188,10 @@ button {
   text-decoration: underline;
 }
 
+.fa-phone {
+   padding-left: 9px;
+}
+
 /* contacts */
 .footer {
   padding-bottom: 40px;
